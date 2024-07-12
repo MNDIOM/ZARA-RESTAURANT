@@ -14,16 +14,11 @@ const Portfolio = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center">
-                <span className="text-primary mb-2 block text-lg font-semibold">
-                  Our Portfolio
-                </span>
+
                 <h2 className="text-dark mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]">
-                  Our Recent Projects
+                  Our Menu
                 </h2>
-                <p className="text-body-color text-base dark:text-dark-6">
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
-                </p>
+ 
               </div>
             </div>
           </div>
@@ -40,7 +35,7 @@ const Portfolio = () => {
                         : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
                     }`}
                   >
-                    All Projects
+                    Entrees
                   </button>
                 </li>
                 <li className="mb-1">
@@ -52,7 +47,7 @@ const Portfolio = () => {
                         : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
                     }`}
                   >
-                    Branding
+                    Apetizers
                   </button>
                 </li>
                 <li className="mb-1">
@@ -64,7 +59,7 @@ const Portfolio = () => {
                         : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
                     }`}
                   >
-                    Design
+                    
                   </button>
                 </li>
                 <li className="mb-1">
@@ -76,7 +71,7 @@ const Portfolio = () => {
                         : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
                     }`}
                   >
-                    Marketing
+                    Breakfast
                   </button>
                 </li>
                 <li className="mb-1">
@@ -88,7 +83,7 @@ const Portfolio = () => {
                         : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
                     }`}
                   >
-                    Development
+                    Pasta
                   </button>
                 </li>
               </ul>
