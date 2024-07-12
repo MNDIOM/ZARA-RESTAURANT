@@ -59,7 +59,7 @@ const Portfolio = () => {
                         : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
                     }`}
                   >
-                    
+                    Something
                   </button>
                 </li>
                 <li className="mb-1">
@@ -91,10 +91,10 @@ const Portfolio = () => {
           </div>
           <div className="flex flex-wrap -mx-4">
             <PortfolioCard
-              ImageHref="https://i.ibb.co/64WfFPt/image-01.jpg"
-              category="Branding"
-              title="Creative Agency"
-              button="View Details"
+              ImageHref="https://img.freepik.com/premium-photo/person-holding-bowl-ethiopian-delicious-derek-tibs-meat-dish_181624-59165.jpg?w=2000"
+              category="$ 11.99"
+              title="Dereke Tibes"
+              button="View Ingredient"
               buttonHref="#"
               showCard={showCard}
             />

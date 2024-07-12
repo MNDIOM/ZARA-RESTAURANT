@@ -4,7 +4,7 @@ import './App.css';
 import HeaderStyle from'./HeaderStyle';
 import Footer from'./Footer';
 import Portfolio from'./Portfolio';
-import Stats from'./stats';
+// import Stats from'./Stats';
 import Testimonials from'./Testimonials.jsx';
 
 
@@ -13,16 +13,10 @@ function App() {
  return (
    <>
    <div>
-        <HeaderStyle />
-        <Router>
-          <Routes>  
-          <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/stats" element={<Stats />} />
-            <Route path="/testimonials" element={<Testimonials />} />
-            <Route path="/footer" element={<Footer />} />
-          
-          </Routes>
-        </Router>
+      <HeaderStyle/>
+      <Portfolio/>
+      <Testimonials/>
+      <Footer/>
     </div>
     </>
  )       
