@@ -1,34 +1,32 @@
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Navbar from './Navbar';
-import HomePage from './HomePage';
-import AboutPage from './AboutPage';
-import MenuPage from './MenuPage';
-import InfoPage from './InfoPage';
-import Footer from './Footer';
+import HeaderStyle from'./HeaderStyle';
+import Footer from'./Footer';
+import Portfolio from'./Portfolio';
+import Stats from'./stats';
+import Testimonials from'./Testimonials.jsx';
 
 
 function App() {
     const [count, setCount] = useState(0);
-        
-    return (
+ return (
+   <>
+   <div>
+        <HeaderStyle />
         <Router>
-            <div>
-                <Navbar />
-                
-                
-
-                <Routes>
-                    <Route path="/" element={<HomePage />} />
-                    <Route path="/about" element={<AboutPage />} />
-                    <Route path="/menu" element={<MenuPage />} />
-                    <Route path="/info" element={<InfoPage />} />
-                </Routes>
-                <Footer />
-            </div>
+          <Routes>  
+          <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/stats" element={<Stats />} />
+            <Route path="/testimonials" element={<Testimonials />} />
+            <Route path="/footer" element={<Footer />} />
+          
+          </Routes>
         </Router>
-    );
+    </div>
+    </>
+ )       
+   
 }
 
 export default App;
