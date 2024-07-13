@@ -14,11 +14,15 @@ const Portfolio = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center">
-
+                <span className="text-primary mb-2 block text-lg font-semibold">
+                  
+                </span>
                 <h2 className="text-dark mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]">
-                  Our Menu
+                  Menu
                 </h2>
- 
+                <p className="text-body-color text-base dark:text-dark-6">
+                  Enjoy our selection of delicious exquisite Habesha food!
+                </p>
               </div>
             </div>
           </div>
@@ -35,7 +39,7 @@ const Portfolio = () => {
                         : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
                     }`}
                   >
-                    Entrees
+                    Main Course
                   </button>
                 </li>
                 <li className="mb-1">
@@ -47,7 +51,7 @@ const Portfolio = () => {
                         : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
                     }`}
                   >
-                    Apetizers
+                    Branding
                   </button>
                 </li>
                 <li className="mb-1">
@@ -59,7 +63,7 @@ const Portfolio = () => {
                         : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
                     }`}
                   >
-                    
+                    Design
                   </button>
                 </li>
                 <li className="mb-1">
@@ -71,7 +75,7 @@ const Portfolio = () => {
                         : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
                     }`}
                   >
-                    Breakfast
+                    Marketing
                   </button>
                 </li>
                 <li className="mb-1">
@@ -83,7 +87,7 @@ const Portfolio = () => {
                         : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
                     }`}
                   >
-                    Pasta
+                    Development
                   </button>
                 </li>
               </ul>
