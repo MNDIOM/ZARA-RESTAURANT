@@ -99,42 +99,42 @@ const Portfolio = () => {
               showCard={showCard}
             />
             <PortfolioCard
-              ImageHref="https://i.ibb.co/PT7ghRs/image-06.jpg"
-              category="marketing"
-              title="Creative Agency"
-              button="View Details"
+              ImageHref="https://www.willflyforfood.net/wp-content/uploads/2021/09/ethiopian-food-yetsom-beyaynetu.jpg"
+              category="$15.99"
+              title="Beyaynetu"
+              button="View Ingredient"
               buttonHref="#"
               showCard={showCard}
             />
             <PortfolioCard
-              ImageHref="https://i.ibb.co/vkt8C1P/image-02.jpg"
-              category="marketing"
-              title="Creative Agency"
-              button="View Details"
+              ImageHref="https://i.pinimg.com/originals/47/55/a0/4755a0f4e3de012f1f55bd03b872f3d1.jpg"
+              category="12.99"
+              title="Kitfo"
+              button="View Ingredient"
               buttonHref="#"
               showCard={showCard}
             />
             <PortfolioCard
-              ImageHref="https://i.ibb.co/3FKqS1G/image-03.jpg"
-              category="Development"
-              title="Creative Agency"
-              button="View Details"
+              ImageHref="https://i.ytimg.com/vi/y9mCYb8V7Bg/hqdefault.jpg"
+              category="9.99"
+              title="Shero wet"
+              button="View Ingredient"
               buttonHref="#"
               showCard={showCard}
             />
             <PortfolioCard
-              ImageHref="https://i.ibb.co/m6dq2fX/image-04.jpg"
-              category="Design"
-              title="Creative Agency"
-              button="View Details"
+              ImageHref="https://cdn.shopify.com/s/files/1/0034/8897/2909/articles/DoroWot_2048x.jpg?v=1613414487"
+              category="12.99"
+              title="Doro wet"
+              button="View Ingredient"
               buttonHref="#"
               showCard={showCard}
             />
             <PortfolioCard
-              ImageHref="https://i.ibb.co/mCPjBsH/image-05.jpg"
-              category="Marketing"
-              title="Creative Agency"
-              button="View Details"
+              ImageHref="https://i.ytimg.com/vi/Mncc0-L5cfY/maxresdefault.jpg"
+              category="9.99"
+              title="Fish Sandwich"
+              button="View Ingredient"
               buttonHref="#"
               showCard={showCard}
             />
