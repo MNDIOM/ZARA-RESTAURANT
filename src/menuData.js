@@ -80,6 +80,16 @@ const menuData = [
       items: [
         { id: 501, name: "Doro Wot", price: 12.99, desc: "Chicken legs stew simmered with spicy berbere sauce and served with boiled eggs with injera"}
       ]
-    }
+    },
+    {
+      id: 9,
+      category: "Popular",
+      items: [
+        { id: 201, name: "Tibsi", price: 11.99, desc: "Cubed tender beef, lamb, chicken or fish marinated and cooked with onions, jalapenos, tomatoes"},
+        { id: 202, name: "Derek Tibsi", price: 11.99, desc: "Bite-sized fresh beef cubes dry cooked with onions, jalapenos, and tomatoes"},
+        { id: 203, name: "Gored Gored", price: 11.99, desc: "Chunked beef lightly cooked with onions, jalapenos, tomatoes, and Ethiopian butter"},
+        { id: 207, name: "Quanta firfir", price: 11.99, desc: "Bite-sized fresh dried beef cooked with onions, jalapenos, garlic, mixed with injera"},
+      ]
+    },
 ]
   export default menuData;
