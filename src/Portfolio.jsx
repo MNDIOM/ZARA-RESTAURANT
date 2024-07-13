@@ -3,7 +3,8 @@ import menuData from "./menuData";
 
 const Portfolio = () => {
   const [categoryId, setCategoryId] = useState();
-  const [categoryName, setCategoryName] = useState("all");
+  const [categoryName, setCategoryName] = useState("initial");
+  const initialMenu = menuData[8].items;
 
   return (
     <>
@@ -33,8 +34,8 @@ const Portfolio = () => {
                           setCategoryId(menuDataItem.id)
                           setCategoryName(menuDataItem.category)
                         }}
-                        className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${categoryId === menuDataItem.id ? "activeClasses bg-primary text-white"
-                          : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-primary hover:text-white"
+                        className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${categoryId === menuDataItem.id ? "activeClasses bg-red-600 text-white"
+                          : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-red-600 hover:text-white"
                           }`}
                       >
                         {menuDataItem.category}
@@ -47,21 +48,17 @@ const Portfolio = () => {
           </div>
           <div className="flex flex-wrap -mx-4">
             {
-              categoryName === "all" ? menuData.map(menuDataItem => {
-                return (
-                  menuDataItem.items.map(menuItem => {
-                    return (
+              categoryName === "initial" ? initialMenu.map(menuDataItem => {
+                      return (
                       <PortfolioCard
-                        key={menuItem.id}
+                        key={menuDataItem.id}
                         ImageHref="https://i.ibb.co/64WfFPt/image-01.jpg"
                         category={menuDataItem.category}
-                        title={menuItem.name}
-                        price={menuItem.price}
-                        description={menuItem.desc}
+                        title={menuDataItem.name}
+                        price={menuDataItem.price}
+                        description={menuDataItem.desc}
                       />
                     )
-                  })
-                )
               }) : menuData.filter(categoryObject => categoryObject.id === categoryId).map(menuDataItem => {
                 return (
                   menuDataItem.items.map(menuItem => {

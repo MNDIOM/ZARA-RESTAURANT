@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ZaraLogo from './images/Logo.png'
 
 const Hero = () => {
   return (
@@ -10,20 +11,17 @@ const Hero = () => {
             <div className="w-full px-4 lg:w-5/12">
               <div className="hero-content">
                 <h1 className="mb-5 text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
-                  Kickstart Startup Website with TailGrids
+                    Authentic Habesha Food & Great Prices
                 </h1>
                 <p className="mb-8 max-w-[480px] text-base text-body-color dark:text-dark-6">
-                  With TailGrids, business and students thrive together.
-                  Business can perfectly match their staffing to changing demand
-                  throughout the dayed.
-                </p>
+                Welcome to Zara Restaurant, where culinary excellence meets warm hospitality. Nestled in the heart of the city, Zara offers a diverse menu that celebrates both local flavors and international cuisine, crafted with the freshest ingredients.</p>
                 <ul className="flex flex-wrap items-center">
                   <li>
                     <a
                       href="/#"
-                      className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-center text-base font-medium text-white hover:bg-blue-dark lg:px-7"
+                      className="inline-flex items-center justify-center rounded-md bg-red-600	px-6 py-3 text-center text-base font-medium text-white hover:bg-blue-dark lg:px-7"
                     >
-                      Get Started
+                      Visit Store
                     </a>
                   </li>
                   <li>
@@ -39,7 +37,7 @@ const Hero = () => {
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
                         >
-                          <circle cx="12" cy="12.6152" r="12" fill="#3758F9" />
+                          <circle cx="12" cy="12.6152" r="12" fill="#E01D21" />
                           <rect
                             x="7.99893"
                             y="14.979"
@@ -94,7 +92,7 @@ const Hero = () => {
               <div className="lg:ml-auto lg:text-right">
                 <div className="relative z-10 inline-block pt-11 lg:pt-0">
                   <img
-                    src="https://cdn.tailgrids.com/1.0/assets/images/hero/hero-image-01.png"
+                    src="https://static01.nyt.com/images/2023/06/23/multimedia/23BIGIDEAS-SAMUELSSON-ktwp/23BIGIDEAS-SAMUELSSON-ktwp-mediumSquareAt3X.jpg"
                     alt="hero"
                     className="max-w-full lg:ml-auto"
                   />
@@ -162,21 +160,22 @@ const Navbar = () => {
     <header className={`absolute left-0 top-0 z-20 flex w-full items-center`}>
       <div className="container">
         <div className="relative -mx-4 flex items-center justify-between">
-          <div className="w-60 max-w-full px-4">
+     
+          <div className="flex w-full items-center justify-between px-4">
+               <div className="w-60 max-w-full px-4">
             <a href="/#" className="block w-full py-5">
               <img
-                src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
+                src={ZaraLogo}
                 alt="logo"
-                className="w-full dark:hidden"
+                className="w-55 dark:hidden"
               />
               <img
                 src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
                 alt="logo"
-                className="w-full hidden dark:block"
+                className="w-full hidden dark:block "
               />
             </a>
           </div>
-          <div className="flex w-full items-center justify-between px-4">
             <div>
               <button
                 onClick={() => setOpen(!open)}
@@ -197,9 +196,10 @@ const Navbar = () => {
               >
                 <ul className="block lg:flex">
                   <ListItem NavLink="/#">Home</ListItem>
-                  <ListItem NavLink="/#">Payment</ListItem>
+                  <ListItem NavLink="/#">Menu</ListItem>
                   <ListItem NavLink="/#">About</ListItem>
-                  <ListItem NavLink="/#">Blog</ListItem>
+                  <ListItem NavLink="/#">Testimonials</ListItem>
+
                 </ul>
               </nav>
             </div>
@@ -208,14 +208,14 @@ const Navbar = () => {
                 href="/#"
                 className="px-7 py-3 text-base font-medium text-dark hover:text-primary dark:text-white"
               >
-                Sign in
+                614 846 4321
               </a>
 
               <a
                 href="/#"
-                className="rounded-lg bg-primary px-7 py-3 text-base font-medium text-white hover:bg-opacity-90"
+                className="rounded-lg bg-red-600 px-7 py-3 text-base font-medium text-white hover:bg-opacity-90"
               >
-                Sign Up
+                Visit Store
               </a>
             </div>
           </div>
