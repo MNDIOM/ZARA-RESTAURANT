@@ -10,7 +10,7 @@ const Footer = () => {
               <div className="mb-10 w-full">
                 <a href="/#" className="mb-6 inline-block max-w-[160px]">
                   <img
-                    src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
+                    src="http://localhost:5173/src/images/Logo.png"
                     alt="logo"
                     className="max-w-full dark:hidden"
                   />
@@ -54,7 +54,7 @@ const Footer = () => {
                       </defs>
                     </svg>
                   </span>
-                  <span>+012 (345) 678 99</span>
+                  <span>614 846 4321</span>
                 </p>
               </div>
             </div>
