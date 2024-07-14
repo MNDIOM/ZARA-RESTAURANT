@@ -69,7 +69,7 @@ const menuData = [
     },
    {
       id: 7,
-      category: "Drinks (with side of fries or chips)",
+      category: "Drinks",
       items: [
         { id: 701, name: "Juices, Sodas, Hot Tea, Coffee, Macchiato, Cappuccino, Espresso ", price: null, desc: "Full bar service upon request"}
       ]
