@@ -4,7 +4,7 @@ import './App.css';
 import HeaderStyle from'./HeaderStyle';
 import Footer from'./Footer';
 import Portfolio from'./Portfolio';
-import Stats from'./stats';
+import Stats from'./Stats';
 import Testimonials from'./Testimonials.jsx';
 
 
