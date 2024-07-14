@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import './App.css';
 import Portfolio from'./Portfolio';
-
-import Testimonials from'./Testimonials.jsx';
-
+import HeaderStyle from './HeaderStyle';
+import Footer from './Footer';
+import Testimonials from './Testimonials';
+import About from './About'
 
 function App() {
     const [count, setCount] = useState(0);
