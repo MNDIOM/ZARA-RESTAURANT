@@ -10,7 +10,7 @@ const Footer = () => {
               <div className="mb-10 w-full">
                 <a href="/#" className="mb-6 inline-block max-w-[160px]">
                   <img
-                    src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
+                    src="http://localhost:5173/src/images/Logo.png"
                     alt="logo"
                     className="max-w-full dark:hidden"
                   />
@@ -54,7 +54,7 @@ const Footer = () => {
                       </defs>
                     </svg>
                   </span>
-                  <span>+012 (345) 678 99</span>
+                  <span>614 846 4321</span>
                 </p>
               </div>
             </div>
@@ -76,7 +76,7 @@ const Footer = () => {
                 </h4>
                 <div className="mb-6 flex items-center">
                   <a
-                    href="http://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19757.png"
+                    href="javascript:void(0)"
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
