@@ -22,22 +22,22 @@ const Testimonial = () => {
           <Swiper slidesPerView={1} ref={sliderRef}>
             <SwiperSlide>
               <SingleTestimonial
-                image="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/image-01.jpg"
+                image="https://lh3.googleusercontent.com/a-/ALV-UjVYUfOIWEdmRp32ys_9xtEXddBXjVGQXak-jsEVllu3jnB8sSOTGw=w36-h36-p-rp-mo-br100"
                 reviewImg="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg"
-                reviewAlt="lineicon"
-                details="Velit est sit voluptas eum sapiente omnis! Porro, impedit minus quam reprehenderit tempore sint quaerat id! Mollitia perspiciatis est asperiores commodi labore!"
-                name="Larry Diamond"
-                position="Chief Executive Officer."
+                reviewAlt=""
+                details="Finest place for music, best customer service and delicious food."
+                name="Tigest Lemlem"
+                position="Costumer"
               />
             </SwiperSlide>
             <SwiperSlide>
               <SingleTestimonial
-                image="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/image-01.jpg"
+                image="https://lh3.googleusercontent.com/a-/ALV-UjVTOsBX_yd4QLpYhXdDAPpAwNcQYScXq1glldNjdsRMjYf61Vwz=w60-h60-p-rp-mo-ba2-br100"
                 reviewImg="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg"
-                reviewAlt="lineicon"
-                details="Velit est sit voluptas eum sapiente omnis! Porro, impedit minus quam reprehenderit tempore sint quaerat id! Mollitia perspiciatis est asperiores commodi labore!"
-                name="Larry Diamond"
-                position="Chief Executive Officer."
+                reviewAlt=""
+                details="I loved my meal from Zara, the steak sandwich hit the spot! Im so glad their kitchen is open past 10 and the bartender was quick, friendly, and accommodating! Atmosphere was relaxed and enjoyable, I’ll have to come back to play pool!"
+                name="Kaylee Lucero"
+                position="local guide."
               />
             </SwiperSlide>
             <div className="absolute left-0 right-0 z-10 flex items-center justify-center gap-5 sm:bottom-0">
