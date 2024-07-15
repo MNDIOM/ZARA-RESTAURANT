@@ -52,7 +52,7 @@ const Portfolio = () => {
                       return (
                       <PortfolioCard
                         key={menuDataItem.id}
-                        ImageHref="https://i.ibb.co/64WfFPt/image-01.jpg"
+                        ImageHref= {menuDataItem.imghr}
                         category={menuDataItem.category}
                         title={menuDataItem.name}
                         price={menuDataItem.price}
@@ -65,7 +65,7 @@ const Portfolio = () => {
                     return (
                       <PortfolioCard
                         key={menuItem.id}
-                        ImageHref="https://i.ibb.co/64WfFPt/image-01.jpg"
+                        ImageHref={menuDataItem.imghr}
                         category={menuDataItem.category}
                         title={menuItem.name}
                         price={menuItem.price}
