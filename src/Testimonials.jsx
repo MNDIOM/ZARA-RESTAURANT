@@ -22,7 +22,7 @@ const Testimonial = () => {
           <Swiper slidesPerView={1} ref={sliderRef}>
             <SwiperSlide>
               <SingleTestimonial
-                image="https://lh3.googleusercontent.com/a-/ALV-UjVYUfOIWEdmRp32ys_9xtEXddBXjVGQXak-jsEVllu3jnB8sSOTGw=w36-h36-p-rp-mo-br100"
+                image=""
                 reviewImg="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg"
                 reviewAlt=""
                 details="Finest place for music, best customer service and delicious food."
@@ -32,7 +32,7 @@ const Testimonial = () => {
             </SwiperSlide>
             <SwiperSlide>
               <SingleTestimonial
-                image="https://lh3.googleusercontent.com/a-/ALV-UjVTOsBX_yd4QLpYhXdDAPpAwNcQYScXq1glldNjdsRMjYf61Vwz=w60-h60-p-rp-mo-ba2-br100"
+                image=""
                 reviewImg="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg"
                 reviewAlt=""
                 details="I loved my meal from Zara, the steak sandwich hit the spot! Im so glad their kitchen is open past 10 and the bartender was quick, friendly, and accommodating! Atmosphere was relaxed and enjoyable, I’ll have to come back to play pool!"
