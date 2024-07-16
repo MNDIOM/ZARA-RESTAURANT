@@ -22,24 +22,48 @@ const Testimonial = () => {
           <Swiper slidesPerView={1} ref={sliderRef}>
             <SwiperSlide>
               <SingleTestimonial
-                image=""
+                image="https://s3-media0.fl.yelpcdn.com/photo/ChBE_XwgaoJ2LiFC7oU7mQ/o.jpg"
                 reviewImg=""
                 reviewAlt=""
-                details="Finest place for music, best customer service and delicious food."
-                name="Tigest Lemlem"
+                details="Delicious! The beef is spicy and tender. The lentils, cabbage, collards and injera are perfectly prepared. Authentic and comforting. Yum! Portions are quite large."
+                name="Vicki N"
                 position="Costumer"
+              />
+              
+            </SwiperSlide>
+            <SwiperSlide>
+              <SingleTestimonial
+                image="https://s3-media0.fl.yelpcdn.com/photo/3Nf-vJ30H6oFsVscsL2PeA/o.jpg"
+                reviewImg=""
+                reviewAlt=""
+                details="I had a fantastic experience!
+                ZARA restaurant offers delicious food, friendly service, and a cozy atmosphere. Every dish we tried was excellent. Highly recommend!"
+                name="Mamadou N"
+                position="software developer."
+              />
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <SingleTestimonial
+                image="https://media.licdn.com/dms/image/C5603AQGKmJxVUNJ6Pw/profile-displayphoto-shrink_800_800/0/1585604336732?e=1726704000&v=beta&t=3hzrDieaxs8rZinUDjxL7nIeW1mO81p5yUJ5opB7L5c"
+                reviewImg=""
+                reviewAlt=""
+                details=""
+                name="Filmon A"
+                position="Software Engineer."
               />
             </SwiperSlide>
             <SwiperSlide>
               <SingleTestimonial
-                image=""
+                image="https://lh3.googleusercontent.com/pw/AP1GczM19GZPFTDUTn8O5DDQMaWI0v0YGFhIdctQ5CwQUQWreKw6RT3M6qlw2UY1FzA7b7taEsGf61-DFkraPVDtH6WiVJFHbdnrCe6muVGrY0DnMV_sLzfN8N7WFhmipr0l568K2WMmOg-m1ywhdrDplMfn=w1078-h607-s-no-gm?authuser=0"
                 reviewImg=""
                 reviewAlt=""
-                details="I loved my meal from Zara, the steak sandwich hit the spot! Im so glad their kitchen is open past 10 and the bartender was quick, friendly, and accommodating! Atmosphere was relaxed and enjoyable, I’ll have to come back to play pool!"
-                name="Kaylee Lucero"
-                position="local guide."
+                details="------"
+                name="name ?"
+                position="costumer."
               />
             </SwiperSlide>
+
             <div className="absolute left-0 right-0 z-10 flex items-center justify-center gap-5 sm:bottom-0">
               <div className="prev-arrow cursor-pointer" onClick={handlePrev}>
                 <button className="d flex h-[60px] w-[60px] items-center justify-center rounded-full border border-stroke bg-white text-dark transition-all hover:border-transparent hover:drop-shadow-testimonial dark:border-dark-3 dark:bg-dark-2 dark:text-white dark:hover:drop-shadow-none">
