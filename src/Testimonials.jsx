@@ -23,7 +23,7 @@ const Testimonial = () => {
             <SwiperSlide>
               <SingleTestimonial
                 image=""
-                reviewImg="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg"
+                reviewImg=""
                 reviewAlt=""
                 details="Finest place for music, best customer service and delicious food."
                 name="Tigest Lemlem"
@@ -33,7 +33,7 @@ const Testimonial = () => {
             <SwiperSlide>
               <SingleTestimonial
                 image=""
-                reviewImg="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg"
+                reviewImg=""
                 reviewAlt=""
                 details="I loved my meal from Zara, the steak sandwich hit the spot! Im so glad their kitchen is open past 10 and the bartender was quick, friendly, and accommodating! Atmosphere was relaxed and enjoyable, I’ll have to come back to play pool!"
                 name="Kaylee Lucero"

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ZaraLogo from './images/Logo.png'
-
+ 
 const Hero = () => {
   return (
     <>
@@ -167,7 +167,7 @@ const Navbar = () => {
               <img
                 src={ZaraLogo}
                 alt="logo"
-                className="w-55 dark:hidden"
+                className="w-60 dark:hidden"
               />
               <img
                 src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
@@ -195,27 +195,28 @@ const Navbar = () => {
                 } `}
               >
                 <ul className="block lg:flex">
-                  <ListItem NavLink="/#">Home</ListItem>
-                  <ListItem NavLink="/#">Menu</ListItem>
-                  <ListItem NavLink="/#">About</ListItem>
-                  <ListItem NavLink="/#">Testimonials</ListItem>
+                  <ListItem NavLink="/Home">Home</ListItem>
+                  <ListItem NavLink="/Menu">Menu</ListItem>
+                  <ListItem NavLink="/About">About</ListItem>
+                  <ListItem NavLink="/Testimonials">Testimonials</ListItem>
 
                 </ul>
               </nav>
             </div>
+            
             <div className="hidden justify-end pr-16 sm:flex lg:pr-0">
               <a
                 href="/#"
                 className="px-7 py-3 text-base font-medium text-dark hover:text-primary dark:text-white"
               >
-                614 846 4321
+               <span>614 826 14 59</span> 
               </a>
 
               <a
-                href="/#"
+                href="https://www.google.com/maps/dir//ZARA+RESTAURANT+%26+BAR,+1383+S+Hamilton+Rd,+Columbus,+OH+43227/@39.9467849,-82.8792974,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883862c27cb78a39:0xe159d72f73d11420!2m2!1d-82.8782349!2d39.9465294?hl=en&entry=ttu"
                 className="rounded-lg bg-red-600 px-7 py-3 text-base font-medium text-white hover:bg-opacity-90"
               >
-                Visit Store
+                Map direction
               </a>
             </div>
           </div>
