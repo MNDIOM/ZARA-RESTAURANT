@@ -224,4 +224,8 @@ const NavLink = ({ link, label }) => {
       </a>
     </li>
   );
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> d9cef5acdecd81ed7e3479d5950099535c47201a
