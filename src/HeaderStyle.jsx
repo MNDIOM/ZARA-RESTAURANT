@@ -58,7 +58,7 @@ const Hero = () => {
                           />
                         </svg>
                       </span>
-                      Download App
+                     what to put here?
                     </a>
                   </li>
                 </ul>
