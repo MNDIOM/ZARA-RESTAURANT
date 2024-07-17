@@ -48,7 +48,7 @@ const Testimonial = () => {
                 image="https://media.licdn.com/dms/image/C5603AQGKmJxVUNJ6Pw/profile-displayphoto-shrink_800_800/0/1585604336732?e=1726704000&v=beta&t=3hzrDieaxs8rZinUDjxL7nIeW1mO81p5yUJ5opB7L5c"
                 reviewImg=""
                 reviewAlt=""
-                details=""
+                details="ZARA's Ethiopian joint in Columbus is the real deal for East African grub. The vibe is chill, the staff are friendly and know their stuff, and the food? It's bursting with flavor, totally legit. If you're into exploring Ethiopian cuisine in Columbus, this spot's where it's at."
                 name="Filmon A"
                 position="Software Engineer."
               />
