@@ -22,49 +22,13 @@ const Hero = () => {
                 <ul className="flex flex-wrap items-center">
                   <li>
                     <a
-                      href="https://www.google.com/maps/dir//ZARA+RESTAURANT+%26+BAR,+1383+S+Hamilton+Rd,+Columbus,+OH+43227/@39.9467849,-82.8792974,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883862c27cb78a39:0xe159d72f73d11420!2m2!1d-82.8782349!2d39.9465294?hl=en&entry=ttu"
+                      href="https://food.google.com/chooseprovider?restaurantId=/g/11df0s9x5q&g2lbs=AOHF13kKTpD_2D0LR0ke7tH45pkAtUfRcgXkiyrF0rHaDSGVukvavmnc87uLB--qvbluStjaiDAxuirgfmtGYAFtA8X9zmH7VxkAXbnxccD113iRc_Sy6Q0%3D&hl=en-US&gl=us&ssta=1&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=uEeXZqGGJNOuptQP2-CJ6Ac&ei=uEeXZqGGJNOuptQP2-CJ6Ac&fo_s=OA&opi=89978449&foub=mcpp&sa=X&ved=2ahUKEwihwoHRna2HAxVTl4kEHVtwAn0QjYwDKAF6BAgfEAk&sei=CfG4RK-koeOIEZlmBNgbpNse&utm_campaign&utm_source=search"
                       className="inline-flex items-center justify-center rounded-md bg-red-600	px-6 py-3 text-center text-base font-medium text-white hover:bg-blue-dark lg:px-7"
                     >
-                      Direction
+                      Order online
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="/#"
-                      className="inline-flex items-center justify-center px-5 py-3 text-center text-base font-medium text-[#464646] hover:text-primary dark:text-white"
-                    >
-                      <span className="mr-2">
-                        <svg
-                          width="24"
-                          height="25"
-                          viewBox="0 0 24 25"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle cx="12" cy="12.6152" r="12" fill="#E01D21" />
-                          <rect
-                            x="7.99893"
-                            y="14.979"
-                            width="8.18182"
-                            height="1.63636"
-                            fill="white"
-                          />
-                          <rect
-                            x="11.2717"
-                            y="7.61523"
-                            width="1.63636"
-                            height="4.09091"
-                            fill="white"
-                          />
-                          <path
-                            d="M12.0898 14.1606L14.9241 11.0925H9.25557L12.0898 14.1606Z"
-                            fill="white"
-                          />
-                        </svg>
-                      </span>
-                      what to put here?
-                    </a>
-                  </li>
+                  
                 </ul>
                 <div className="clients pt-16">
                   <h6 className="mb-6 flex items-center text-xs font-normal text-body-color dark:text-dark-6">
