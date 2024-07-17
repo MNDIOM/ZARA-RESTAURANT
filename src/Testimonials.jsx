@@ -59,7 +59,7 @@ const Testimonial = () => {
                 reviewImg=""
                 reviewAlt=""
                 details="------"
-                name="name ?"
+                name="Jenny"
                 position="costumer."
               />
             </SwiperSlide>
