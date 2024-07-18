@@ -11,7 +11,7 @@ const menuData = [
     },
     {
       id: 2,
-      category: "Entrees (all served with side salad)",
+      category: "Entrees",
       items: [
         { id: 201, name: "Tibsi", price: 16.99, desc: "Cubed tender beef, lamb, chicken or fish marinated and cooked with onions, jalapenos, tomatoes", imghr: "https://img.freepik.com/premium-photo/person-holding-bowl-ethiopian-delicious-derek-tibs-meat-dish_181624-59165.jpg?w=2000"},
         { id: 202, name: "Derek Tibsi", price: 17.99, desc: "Bite-sized fresh beef cubes dry cooked with onions, jalapenos, and tomatoes", imghr: "https://imgur.com/UOAQd2p"},
@@ -52,7 +52,7 @@ const menuData = [
     },
    {
       id: 5,
-      category: "Sandwiches (with side of fries or chips)",
+      category: "Sandwiches",
       items: [
         { id: 501, name: "Steak Sandwich", price: 8.99, desc: "Grilled steak, onions, tomatoes, swiss cheese, lettuce, ranch dressing", imghr: "https://imgur.com/WXTkDUL"},
         { id: 502, name: "Chicken Sandwich", price: 8.99, desc: "Grilled chicken, onions, tomatoes, swiss cheese, lettuce, ranch dressing", imghr: "https://imgur.com/PPGCVst"},
