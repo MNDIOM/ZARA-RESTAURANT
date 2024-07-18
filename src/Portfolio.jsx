@@ -14,7 +14,7 @@ const Portfolio = () => {
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center">
 
-                <h2 className="text-dark mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]">
+                <h2 className="text-dark mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[60px]">
                   Our Menu
                 </h2>
 
@@ -65,8 +65,8 @@ const Portfolio = () => {
                     return (
                       <PortfolioCard
                         key={menuItem.id}
-                        ImageHref={menuDataItem.imghr}
-                        category={menuDataItem.category}
+                        ImageHref={menuItem.imghr}
+                        category={menuItem.category}
                         title={menuItem.name}
                         price={menuItem.price}
                         description={menuItem.desc}

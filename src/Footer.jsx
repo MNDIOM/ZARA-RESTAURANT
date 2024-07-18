@@ -109,6 +109,10 @@ const Footer = () => {
               </defs>
             </svg>
           </span>
+<<<<<<< HEAD
+=======
+          
+>>>>>>> 46e2f4a5a26299130145843f64c6c26aa7fffd21
         </div>
       </footer>
     </>
