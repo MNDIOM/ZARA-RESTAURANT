@@ -14,8 +14,8 @@ const menuData = [
       category: "Entrees",
       items: [
         { id: 201, name: "Tibsi", price: 16.99, desc: "Cubed tender beef, lamb, chicken or fish marinated and cooked with onions, jalapenos, tomatoes", imghr: "https://i.imgur.com/5GUn7Fk.jpg"},
-        { id: 202, name: "Derek Tibsi", price: 17.99, desc: "Bite-sized fresh beef cubes dry cooked with onions, jalapenos, and tomatoes", imghr: "https://i.imgur.com/hsljWya.jpg"},
-        { id: 203, name: "Gored Gored", price: 18.99, desc: "Chunked beef lightly cooked with onions, jalapenos, tomatoes, and Ethiopian butter", imghr: "https://i.imgur.com/QJ3EFVT.jpg"},
+        { id: 202, name: "Derek Tibsi", price: 17.99, desc: "Bite-sized fresh beef cubes dry cooked with onions, jalapenos, and tomatoes", imghr: "https://i.imgur.com/cDP5z8X.jpg"},
+        { id: 203, name: "Gored Gored", price: 18.99, desc: "Chunked beef lightly cooked with onions, jalapenos, tomatoes, and Ethiopian butter", imghr: "https://i.imgur.com/R2GM73E.jpeg"},
         { id: 204, name: "Goden Tibsi", price: 19.99, desc: "Prime short ribs cooked with veggies", imghr: "https://i.imgur.com/GbeAjhW.jpg"},
         { id: 205, name: "Banatu", price: 15.99, desc: "Spicy beef ribs served hot with kifto and cottage cheese", imghr: "https://i.imgur.com/nLfyMyu.jpg"},
         { id: 206, name: "Kitfo", price: 12.99, desc: "Ground beef mixed with homemade butter and mitmita (Ethiopian hot spice)", imghr: "https://i.imgur.com/rolNO5N.jpg"},
@@ -47,7 +47,7 @@ const menuData = [
       items: [
         { id: 401, name: "Spaghetti or Macaroni Zara Sauce", price: 12.99, desc: "Spaghetti or macaroni pasta served with special Zara tomato sauce served with Italian bread rolls", imghr: "https://i.imgur.com/UqtynQz.jpg"},
         { id: 402, name: "Spaghetti or Macaroni with Zara Meat Sauce", price: 10.99, desc: "Spaghetti or macaroni pasta served with special Zara meat sauce and served with Italian bread rolls", imghr: "https://i.imgur.com/u34DSjg.jpeg"},
-        { id: 403, name: "Beef/Chicken/Fish Cotoletta", price: 12.99, desc:"Meats" , imghr: ""}
+        { id: 403, name: "Beef/Chicken/Fish Cotoletta", price: 12.99, desc:"Meats" , imghr: "https://i.imgur.com/KWkUAyP.jpeg"}
       ]
     },
    {
@@ -86,7 +86,7 @@ const menuData = [
       category: "Popular",
       items: [
         { id: 201, name: "Tibsi", price: 12.99, desc: "Cubed tender beef, lamb, chicken or fish marinated and cooked with onions, jalapenos, tomatoes", imghr: "https://i.imgur.com/5GUn7Fk.jpg"},
-        { id: 202, name: "Derek Tibsi", price: 11.99, desc: "Bite-sized fresh beef cubes dry cooked with onions, jalapenos, and tomatoes", imghr: "https://i.imgur.com/UBVo1iv.jpeg"},
+        { id: 202, name: "Derek Tibsi", price: 11.99, desc: "Bite-sized fresh beef cubes dry cooked with onions, jalapenos, and tomatoes", imghr: "https://i.imgur.com/cDP5z8X.jpg"},
         { id: 203, name: "Gored Gored", price: 11.99, desc: "Chunked beef lightly cooked with onions, jalapenos, tomatoes, and Ethiopian butter", imghr: "https://i.imgur.com/ypQCwkQ.jpg"},
         { id: 207, name: "Quanta firfir", price: 11.99, desc: "Bite-sized fresh dried beef cooked with onions, jalapenos, garlic, mixed with injera", imghr: "https://i.imgur.com/JWMpl1w.jpg"},
       ]
