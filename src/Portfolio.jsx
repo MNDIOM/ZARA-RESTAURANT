@@ -52,7 +52,7 @@ const Portfolio = () => {
                       return (
                       <PortfolioCard
                         key={menuDataItem.id}
-                        ImageHref= {menuDataItem.imghr}
+                        ImageHref= {menuData.imghr}
                         category={menuDataItem.category}
                         title={menuDataItem.name}
                         price={menuDataItem.price}
