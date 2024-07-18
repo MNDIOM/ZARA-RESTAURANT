@@ -87,7 +87,7 @@ const menuData = [
       items: [
         { id: 201, name: "Tibsi", price: 12.99, desc: "Cubed tender beef, lamb, chicken or fish marinated and cooked with onions, jalapenos, tomatoes", imghr: "https://i.imgur.com/5GUn7Fk.jpg"},
         { id: 202, name: "Derek Tibsi", price: 11.99, desc: "Bite-sized fresh beef cubes dry cooked with onions, jalapenos, and tomatoes", imghr: "https://i.imgur.com/cDP5z8X.jpg"},
-        { id: 203, name: "Gored Gored", price: 11.99, desc: "Chunked beef lightly cooked with onions, jalapenos, tomatoes, and Ethiopian butter", imghr: "https://i.imgur.com/ypQCwkQ.jpg"},
+        { id: 203, name: "Gored Gored", price: 11.99, desc: "Chunked beef lightly cooked with onions, jalapenos, tomatoes, and Ethiopian butter", imghr: "https://i.imgur.com/R2GM73E.jpeg"},
         { id: 207, name: "Quanta firfir", price: 11.99, desc: "Bite-sized fresh dried beef cooked with onions, jalapenos, garlic, mixed with injera", imghr: "https://i.imgur.com/JWMpl1w.jpg"},
       ]
     },
