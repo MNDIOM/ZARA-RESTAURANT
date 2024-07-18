@@ -65,8 +65,8 @@ const Portfolio = () => {
                     return (
                       <PortfolioCard
                         key={menuItem.id}
-                        ImageHref={menuDataItem.imghr}
-                        category={menuDataItem.category}
+                        ImageHref={menuItem.imghr}
+                        category={menuItem.category}
                         title={menuItem.name}
                         price={menuItem.price}
                         description={menuItem.desc}
