@@ -17,7 +17,7 @@ const Testimonial = () => {
 
   return (
     <>
-      <section className="pb-20 pt-20 dark:bg-dark lg:pb-[120px] lg:pt-[120px]">
+      <section className="pb-20 pt-20 dark:bg-dark lg:pb-[120px] lg:pt-[120px] text-left">
         <div className="container mx-auto">
           <Swiper slidesPerView={1} ref={sliderRef}>
             <SwiperSlide>
@@ -53,16 +53,7 @@ const Testimonial = () => {
                 position="Software Engineer."
               />
             </SwiperSlide>
-            <SwiperSlide>
-              <SingleTestimonial
-                image="https://lh3.googleusercontent.com/pw/AP1GczM19GZPFTDUTn8O5DDQMaWI0v0YGFhIdctQ5CwQUQWreKw6RT3M6qlw2UY1FzA7b7taEsGf61-DFkraPVDtH6WiVJFHbdnrCe6muVGrY0DnMV_sLzfN8N7WFhmipr0l568K2WMmOg-m1ywhdrDplMfn=w1078-h607-s-no-gm?authuser=0"
-                reviewImg=""
-                reviewAlt=""
-                details="------"
-                name="Jenny"
-                position="costumer."
-              />
-            </SwiperSlide>
+          
 
             <div className="absolute left-0 right-0 z-10 flex items-center justify-center gap-5 sm:bottom-0">
               <div className="prev-arrow cursor-pointer" onClick={handlePrev}>

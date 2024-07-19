@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-5/12">
-              <div className="hero-content">
+              <div className="hero-content text-left">
                 <h1 className="mb-5 text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
                   Authentic Habesha Food & Great Prices
                 </h1>
@@ -23,7 +23,7 @@ const Hero = () => {
                   <li>
                     <a
                       href="https://food.google.com/chooseprovider?restaurantId=/g/11df0s9x5q&g2lbs=AOHF13kKTpD_2D0LR0ke7tH45pkAtUfRcgXkiyrF0rHaDSGVukvavmnc87uLB--qvbluStjaiDAxuirgfmtGYAFtA8X9zmH7VxkAXbnxccD113iRc_Sy6Q0%3D&hl=en-US&gl=us&ssta=1&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=uEeXZqGGJNOuptQP2-CJ6Ac&ei=uEeXZqGGJNOuptQP2-CJ6Ac&fo_s=OA&opi=89978449&foub=mcpp&sa=X&ved=2ahUKEwihwoHRna2HAxVTl4kEHVtwAn0QjYwDKAF6BAgfEAk&sei=CfG4RK-koeOIEZlmBNgbpNse&utm_campaign&utm_source=search"
-                      className="inline-flex items-center justify-center rounded-md bg-red-600	px-6 py-3 text-center text-base font-medium text-white hover:bg-blue-dark lg:px-7"
+                      className="inline-flex items-center justify-center rounded-md bg-red-600	px-6 py-3 text-center text-base font-medium text-white hover:bg-opacity-90 lg:px-7"
                     >
                       Order online
                     </a>
@@ -60,9 +60,9 @@ const Hero = () => {
               <div className="lg:ml-auto lg:text-right">
                 <div className="relative z-10 inline-block pt-11 lg:pt-0">
                   <img
-                    src="https://blackrestaurantweeks.com/wp-content/uploads/2021/09/delish-ethiopian-cuisine.jpeg"
+                    src="https://i.pinimg.com/736x/21/a8/07/21a807fa26078356a82a72893d211d40.jpg"
                     alt="hero"
-                    className="max-w-full lg:ml-auto"
+                    className="max-w-full lg:ml-auto rounded-3xl"
                   />
                   <span className="absolute -bottom-8 -left-8 z-[-1]">
                     <svg
@@ -131,7 +131,7 @@ const Navbar = () => {
           <div className="flex w-full items-center justify-between px-4">
             <div className="w-60 max-w-full px-4">
               <a href="/#" className="block w-full py-5">
-                <img src={ZaraLogo} alt="logo" className="w-60 dark:hidden" />
+                <img src={ZaraLogo} alt="logo" className="w-40 dark:hidden" />
                 <img
                   src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
                   alt="logo"
@@ -145,7 +145,7 @@ const Navbar = () => {
                 id="navbarToggler"
                 className={` ${
                   open && "navbarTogglerActive"
-                } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden`}
+                } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] bg-red-600 focus:ring-2 lg:hidden`}
               >
                 <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
                 <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
@@ -197,14 +197,14 @@ const Navbar = () => {
                     </defs>
                   </svg>
                 </span>
-                <span>+16148261459</span>
+                <span>614 826 1459</span>
               </p>
 
               <a
                 href="https://www.google.com/maps/dir//ZARA+RESTAURANT+%26+BAR,+1383+S+Hamilton+Rd,+Columbus,+OH+43227/@39.9467849,-82.8792974,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883862c27cb78a39:0xe159d72f73d11420!2m2!1d-82.8782349!2d39.9465294?hl=en&entry=ttu"
                 className="ml-4 rounded-lg bg-red-600 px-7 py-3 text-base font-medium text-white hover:bg-opacity-90"
               >
-                Direction
+                Directions
               </a>
             </div>
           </div>
@@ -220,7 +220,7 @@ const ListItem = ({ children, NavLink }) => {
       <li>
         <a
           href={NavLink}
-          className="flex py-2 text-base font-medium text-dark hover:text-primary dark:text-white lg:ml-10 lg:inline-flex"
+          className="flex py-2 text-base font-medium text-dark hover:text-red-600 dark:text-white lg:ml-10 lg:inline-flex"
         >
           {children}
         </a>
