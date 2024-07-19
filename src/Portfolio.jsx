@@ -99,12 +99,12 @@ const PortfolioCard = ({
       >
         <div className="relative mb-12">
           <div className="overflow-hidden rounded-[10px]">
-            <img src={ImageHref} alt="portfolio" className="w-full" />
+            <img src={ImageHref} alt="portfolio" className="w-full h-72 border border-solid	border-3" />
           </div>
-          <div className="relative z-10 mx-7 -mt-20 rounded-lg bg-white dark:bg-dark-2 py-[34px] px-3 text-center shadow-portfolio dark:shadow-box-dark">
+          <div className="relative z-10 mx-5 -mt-20 rounded-lg bg-white dark:bg-dark-2 py-[34px] px-3 text-center shadow-portfolio dark:shadow-box-dark">
             <h3 className="text-dark dark:text-white mb-5 text-xl font-bold">{title}</h3>
-            <h4 className="text-dark dark:text-white mb-5 text-xl font-bold">{price}</h4>
-            <h4 className="text-dark dark:text-white mb-5 text-xl font-bold">{description}</h4>
+            <h4 className="text-dark dark:text-white text-xl ">{price}</h4>
+            <h4 className="text-dark dark:text-white text-md p-7 ">{description}</h4>
           </div>
         </div>
       </div>

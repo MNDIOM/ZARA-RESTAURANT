@@ -11,14 +11,14 @@ const About1 = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://i.ibb.co/gFb3ns6/image-1.jpg"
+                      src="https://i.imgur.com/snSJ45w.png"
                       alt=""
                       className="w-full rounded-2xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://i.ibb.co/rfHFq15/image-2.jpg"
+                      src="https://images.unsplash.com/photo-1662894311127-ea26660dbdf3?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -27,7 +27,7 @@ const About1 = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
                     <img
-                      src="https://i.ibb.co/9y7nYCD/image-3.jpg"
+                      src="https://images.unsplash.com/photo-1542458580-661eae5bec20?q=80&w=3840&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -606,29 +606,31 @@ const About1 = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+            <div className="w-full px-4 lg:w-1/2 xl:w-5/12 text-left">
               <div className="mt-10 lg:mt-0">
                 <span className="block mb-4 text-lg font-semibold text-red-600">
                   Why Choose Us
                 </span>
                 <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
-                  Make your customers happy by giving services.
+                  Focused on Customer Satisfaction
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less.
+                Zara Restaurant and Bar in Columbus, Ohio, is a standout destination for East African cuisine lovers. Specializing in authentic Eritrean and Ethiopian dishes, Zara ensures fresh and affordable meals that cater to diverse tastes. Whether you're enjoying their signature dinish siga or exploring their variety of injera-based offerings, Zara promises a flavorful culinary experience.
+
+
                 </p>
                 <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                  A domain name is one of the first steps to establishing your
-                  brand. Secure a consistent brand image with a domain name that
-                  matches your business.
+                Located on the East side of Columbus, Zara offers a cozy dining atmosphere paired with attentive service, perfect for both intimate dinners and group outings. Experience the vibrant flavors of East Africa at Zara Restaurant and Bar, where each dish reflects a commitment to tradition and quality.
+
+
+
+
                 </p>
                 <a
-                  href="javascript:void(0)"
+                  href="https://food.google.com/chooseprovider?restaurantId=/g/11df0s9x5q&g2lbs=AOHF13kKTpD_2D0LR0ke7tH45pkAtUfRcgXkiyrF0rHaDSGVukvavmnc87uLB--qvbluStjaiDAxuirgfmtGYAFtA8X9zmH7VxkAXbnxccD113iRc_Sy6Q0%3D&hl=en-US&gl=us&ssta=1&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=uEeXZqGGJNOuptQP2-CJ6Ac&ei=uEeXZqGGJNOuptQP2-CJ6Ac&fo_s=OA&opi=89978449&foub=mcpp&sa=X&ved=2ahUKEwihwoHRna2HAxVTl4kEHVtwAn0QjYwDKAF6BAgfEAk&sei=CfG4RK-koeOIEZlmBNgbpNse&utm_campaign&utm_source=search"
                   className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-red-600 hover:bg-opacity-90"
                 >
-                  Get Started
+                  Order Online
                 </a>
               </div>
             </div>
