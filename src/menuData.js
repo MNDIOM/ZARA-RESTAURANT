@@ -71,28 +71,28 @@ const menuData = [
       category: "Drinks",
       items: [
         { id: 701, name: "Juices", price: 2.99, desc: "Description needed here from Client/Menu. Additional content to meet 3 lines.", imghr: "https://www.thatsitfruit.com/cdn/shop/articles/0d159290a5ec60e6918ce61b59d420ca_4882x.jpg?v=1638405556"},
-        { id: 701, name: "Sodas", price: 2.99, desc: "Description needed here from Client/Menu. Additional content to meet 3 lines.", imghr: "https://www.reagent.co.uk/wp-content/uploads/2022/09/three-glasses-of-fizzy-drinks.jpg"},
-        { id: 701, name: "Hot Tea or Coffee", price: 2.99, desc: "Description needed here from Client/Menu. Additional content to meet 3 lines.", imghr: "https://npr.brightspotcdn.com/dims4/default/b1e4781/2147483647/strip/true/crop/1000x563+0+52/resize/1200x675!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4d%2Fb6%2F7110375d4b718ca9bf0c930505b0%2Fcoffee-tea.jpg"},
-        { id: 701, name: "Macchiato", price: 4.99, desc: "Description needed here from Client/Menu. Additional content to meet 3 lines.", imghr: "https://i.imgur.com/LS5lwid.png"},
-        { id: 701, name: "Cappuccino", price: 4.99, desc: "Description needed here from Client/Menu. Additional content to meet 3 lines.", imghr: "https://static01.nyt.com/images/2015/10/02/fashion/02CAPP3SUB/02CAPP3SUB-superJumbo.jpg"},
-        { id: 701, name: "Espresso", price: 4.99, desc: "Description needed here from Client/Menu. Additional content to meet 3 lines.", imghr: "https://neurosciencenews.com/files/2023/07/espresso-alzheimers-neuroscience.jpg"},
+        { id: 702, name: "Sodas", price: 2.99, desc: "Description needed here from Client/Menu. Additional content to meet 3 lines.", imghr: "https://www.reagent.co.uk/wp-content/uploads/2022/09/three-glasses-of-fizzy-drinks.jpg"},
+        { id: 703, name: "Hot Tea or Coffee", price: 2.99, desc: "Description needed here from Client/Menu. Additional content to meet 3 lines.", imghr: "https://npr.brightspotcdn.com/dims4/default/b1e4781/2147483647/strip/true/crop/1000x563+0+52/resize/1200x675!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4d%2Fb6%2F7110375d4b718ca9bf0c930505b0%2Fcoffee-tea.jpg"},
+        { id: 704, name: "Macchiato", price: 4.99, desc: "Description needed here from Client/Menu. Additional content to meet 3 lines.", imghr: "https://i.imgur.com/LS5lwid.png"},
+        { id: 705, name: "Cappuccino", price: 4.99, desc: "Description needed here from Client/Menu. Additional content to meet 3 lines.", imghr: "https://static01.nyt.com/images/2015/10/02/fashion/02CAPP3SUB/02CAPP3SUB-superJumbo.jpg"},
+        { id: 706, name: "Espresso", price: 4.99, desc: "Description needed here from Client/Menu. Additional content to meet 3 lines.", imghr: "https://neurosciencenews.com/files/2023/07/espresso-alzheimers-neuroscience.jpg"},
       ]
     },
    {
       id: 8,
       category: "Weekend Special",
       items: [
-        { id: 501, name: "Doro Wot", price: 12.99, desc: "Chicken legs stew simmered with spicy berbere sauce and served with boiled eggs with injera", imghr: "https://i.imgur.com/Xl8mrli.png"}
+        { id: 801, name: "Doro Wot", price: 12.99, desc: "Chicken legs stew simmered with spicy berbere sauce and served with boiled eggs with injera", imghr: "https://i.imgur.com/Xl8mrli.png"}
       ]
     },
     {
       id: 9,
       category: "Popular",
       items: [
-        { id: 201, name: "Tibsi", price: 12.99, desc: "Cubed tender beef, lamb, chicken or fish cooked with onions, jalapenos, tomatoes", imghr: "https://i.imgur.com/4My4Jzl.png"},
-        { id: 202, name: "Derek Tibsi", price: 11.99, desc: "Bite-sized fresh beef cubes dry cooked with onions, jalapenos, and tomatoes", imghr: "https://i.imgur.com/cDP5z8X.jpg"},
-        { id: 203, name: "Gored Gored", price: 11.99, desc: "Chunked beef lightly cooked with onions, jalapenos, tomatoes, and Ethiopian butter", imghr: "https://i.imgur.com/R2GM73E.jpeg"},
-        { id: 207, name: "Quanta firfir", price: 11.99, desc: "Bite-sized fresh dried beef cooked with onions, jalapenos, garlic, mixed with injera", imghr: "https://i.ytimg.com/vi/EU5X3jjHm-E/maxresdefault.jpg"},
+        { id: 901, name: "Tibsi", price: 12.99, desc: "Cubed tender beef, lamb, chicken or fish cooked with onions, jalapenos, tomatoes", imghr: "https://i.imgur.com/4My4Jzl.png"},
+        { id: 902, name: "Derek Tibsi", price: 11.99, desc: "Bite-sized fresh beef cubes dry cooked with onions, jalapenos, and tomatoes", imghr: "https://i.imgur.com/cDP5z8X.jpg"},
+        { id: 903, name: "Gored Gored", price: 11.99, desc: "Chunked beef lightly cooked with onions, jalapenos, tomatoes, and Ethiopian butter", imghr: "https://i.imgur.com/R2GM73E.jpeg"},
+        { id: 907, name: "Quanta firfir", price: 11.99, desc: "Bite-sized fresh dried beef cooked with onions, jalapenos, garlic, mixed with injera", imghr: "https://i.ytimg.com/vi/EU5X3jjHm-E/maxresdefault.jpg"},
       ]
     },
 ]
