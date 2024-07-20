@@ -7,30 +7,46 @@ import Testimonials from './Testimonials';
 import About from './About';
 import ZaraLogo from "./images/Logo.png";
 import { Link, Element } from 'react-scroll';
+import Intro from './Intro';
+
 
 
 function App() {
-    const [count, setCount] = useState(0);
+
+    const [isIntroVisible, setIsIntroVisible] = useState(true);
+
+
+    const handleIntroEnd = () => {
+      setIsIntroVisible(false);
+    };
+
+
     return (
-        <>
-        <Navbar />
-            <Element name="home">
-            <HeaderStyle />
-            </Element>
-            <Element name="menu">
-                <Portfolio />
-            </Element>
-            <Element name="about">
-                <About />
-            </Element>
-            <Element name="testimonials">
-                <Testimonials />
-            </Element>
-            <Element name="footer">
-                <Footer />
-            </Element>
-        </>
-    );
+      <>
+          {isIntroVisible ? (
+              <Intro onAnimationEnd={handleIntroEnd} />
+          ) : (
+              <>
+                  <Navbar />
+                  <Element name="home">
+                      <HeaderStyle />
+                  </Element>
+                  <Element name="menu">
+                      <Portfolio />
+                  </Element>
+                  <Element name="about">
+                      <About />
+                  </Element>
+                  <Element name="testimonials">
+                      <Testimonials />
+                  </Element>
+                  <Element name="footer">
+                      <Footer />
+                  </Element>
+              </>
+          )}
+      </>
+  );
 }
 
 
@@ -60,9 +76,9 @@ const Navbar = () => {
                   open && "navbarTogglerActive"
                 } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] bg-red-600 focus:ring-2 lg:hidden`}
               >
-                <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
-                <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
-                <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
+                <span className="relative my-[6px] block h-[2px] w-[30px] bg-white dark:bg-white"></span>
+                <span className="relative my-[6px] block h-[2px] w-[30px] bg-white dark:bg-white"></span>
+                <span className="relative my-[6px] block h-[2px] w-[30px] bg-white dark:bg-white"></span>
               </button>
               <nav
                 id="navbarCollapse"
