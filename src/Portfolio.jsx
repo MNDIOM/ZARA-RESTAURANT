@@ -4,7 +4,7 @@ import menuData from "./menuData";
 const Portfolio = () => {
   const [categoryId, setCategoryId] = useState();
   const [categoryName, setCategoryName] = useState("initial");
-  const initialMenu = menuData[8].items;
+  const initialMenu = menuData[7].items;
 
   return (
     <>
